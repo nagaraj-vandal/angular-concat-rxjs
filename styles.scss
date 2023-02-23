@@ -1,0 +1,21 @@
+/* Add application styles & imports to this file! */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import './src/assets/scss/_spacings.scss';
+
+html {
+  font-size: 16px; // set document font-size so 1rem = 16px for easier material design
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.hover-opacity:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
